@@ -8,8 +8,17 @@
 main {
   aspect-ratio: 9/16;
   border-radius: 3px;
-  border: 1px solid #fff;
   max-height: 80vh;
   max-width: 375px;
+  overflow-y: scroll;
   width: 100vw;
+}
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
 }

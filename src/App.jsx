@@ -1,10 +1,11 @@
 import './App.css'
+import VideoPlayer from './components/VideoPlayer'
 
 function App () {
   return (
     <div className='App'>
       <main>
-        <h1>TikTok Clone</h1>
+        <VideoPlayer />
       </main>
     </div>
   )
