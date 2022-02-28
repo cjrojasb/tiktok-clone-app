@@ -1,7 +1,8 @@
 .App {
   background-color: #000;
-  height: 100vh;
   display: grid;
+  height: 100vh;
+  overflow: hidden;
   place-content: center;
 }
 
@@ -11,6 +12,7 @@ main {
   max-height: 80vh;
   max-width: 375px;
   overflow-y: scroll;
+  scroll-snap-type: y mandatory;
   width: 100vw;
 }
 

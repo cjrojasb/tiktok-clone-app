@@ -4,7 +4,7 @@
 }
 
 .wrapper {
-
+  position: relative;
 }
 
 .player {
@@ -19,4 +19,8 @@
   margin: auto;
   position: absolute;
   width: 64px;
+}
+
+.hidden {
+  opacity: 0;
 }
